@@ -1,0 +1,185 @@
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:yellowgreen
+
+}
+.item:hover{
+    color: white;
+cursor: pointer;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.item p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    background-image: url("/well.jpg");
+    background-attachment: fixed;
+    height:80vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second button {
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border: 2px solid orangered;
+padding: 20px;
+
+}
+
+.second button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.second h1 {
+    color: aliceblue;
+    padding-top: 15px;
+}
+.second p{
+    color: aliceblue;
+}
+
+.hh {
+    background-color: grey;
+}
+
+.hh h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    background-color: grey;
+    border-color: chocolate;
+    margin-left: 1.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l1 img {
+    width: 250px;
+    height: 300px;
+}
+
+.l1 h2 {
+    color: blue;
+
+
+}
+
+.l1 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 300px;
+}
+
+.four {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.four img {
+    width: 360px;
+    height: 380px;
+}
+
+.four1 p {
+    text-size-adjust: 5px;
+    margin-top: 10px;
+}
+
+.five {
+    background-color: black;
+}
+
+.head {
+    color: rgb(79, 11, 238);
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.body h3 {
+    color: darkgoldenrod;
+}
+
+.end {
+    color: darkgoldenrod;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+.end h5{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+ padding: 15px;
+ margin-left:300px;
+}
+
+.body input {
+    background-color: black;
+    border: 2px solid green;
+    
+}
+
+.body {
+    margin-left:400px;
+
+}
+
+.but {
+    margin-top: 25px;
+}
+
+.but button {
+    border: 1px solid green;
+    background-color: black;
+    color: darkgoldenrod;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body button:hover{
+    color: blue;
+    cursor: pointer;
+}
